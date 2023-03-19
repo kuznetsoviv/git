@@ -1,1 +1,10 @@
-git init - create repository in folder
+git init                                                                        - create repository in folder
+git config --list --show-origin                                                 - show all settings and where they are
+git diff                                                                        - show not staged differences in files
+git reflog                                                                      - show all saved commits
+git rm                                                                          - remove file in index
+git log --patch                                                                 - log with patch
+git log --pretty=format:%h - %an, %ar: %s -5                                    - log in pretty format
+git log --relative-date                                                         - log with relative date
+git log --grep "..."                                                            - log with definite commit names
+git log -S "..."                                                                - log with definite file contents
