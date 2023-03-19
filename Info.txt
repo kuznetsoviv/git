@@ -12,5 +12,5 @@ git remote show origin                                                          
 git tag                                                                         - show all tags in repository
 git tag v0.0                                                                    - create lightweight tag
 git tag -a v0.0 -m "init version"                                               - create annotated tag
-git tag -a 9fceb02 -m "init version"                                            - create tag for specifical commit 
+git tag -a v0.0 9fceb02 -m "init version"                                            - create tag for specifical commit 
 gti show v0.0                                                                   - show tag v0.0
