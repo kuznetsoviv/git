@@ -19,4 +19,5 @@ git push --tags                                                                 
 git checkout -b <branch name>                                                   - create new branch
 git switch -c <branch name>                                                     - create new branch
 git switch <branch name>                                                        - switch to branch
+git branch -d <branch name>                                                     - remove branch <branch name>
 git merge <branch name>                                                         - merge current branch with branch <branch name>
