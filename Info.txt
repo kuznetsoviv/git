@@ -16,3 +16,6 @@ git tag -a v0.0 -m "init version"                                               
 git tag -a v0.0 9fceb02 -m "init version"                                       - create tag for specifical commit
 git show v0.0                                                                   - show tag v0.0
 git push --tags                                                                 - send tags to remote repository
+git checkout -b <branch name>                                                   - create new branch
+git switch -c <branch name>                                                     - create new branch
+git switch <branch name>                                                        - switch to branch  
