@@ -8,9 +8,11 @@ git log --pretty=format:%h - %an, %ar: %s -5                                    
 git log --relative-date                                                         - log with relative date
 git log --grep "..."                                                            - log with definite commit names
 git log -S "..."                                                                - log with definite file contents
+git log --oneline --decorate --graph --all                                      - show history of all branches
 git remote show origin                                                          - show info about origin repository
 git tag                                                                         - show all tags in repository
 git tag v0.0                                                                    - create lightweight tag
 git tag -a v0.0 -m "init version"                                               - create annotated tag
-git tag -a v0.0 9fceb02 -m "init version"                                            - create tag for specifical commit 
-gti show v0.0                                                                   - show tag v0.0
+git tag -a v0.0 9fceb02 -m "init version"                                       - create tag for specifical commit
+git show v0.0                                                                   - show tag v0.0
+git push --tags                                                                 - send tags to remote repository
