@@ -27,4 +27,3 @@ git merge <branch name>                                                         
 git checkout experiment + git rebase main                                       - switch to branch experiment, then rebase experiment branch to main
 git rebase --onto master server client                                          - switch to client, find changes regarding server and apply them for master
 git rebase <basebranch> <topicbranch>                                           - rebase topicbranch to basebranch
----------------------------------------------------------------------------------------------------------------------------------
