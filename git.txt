@@ -1,7 +1,7 @@
 git init                                                                        - create repository in folder
 git config --list --show-origin                                                 - show all settings and where they are
 git diff                                                                        - show not staged differences in files
-git reflog                                                                      - show all saved commits
+git reflog                                                                      - show log local history
 git rm                                                                          - remove file in index
 ---------------------------------------------------------------------------------------------------------------------------------
 git log --patch                                                                 - log with patch
@@ -16,6 +16,9 @@ git tag v0.0                                                                    
 git tag -a v0.0 -m "init version"                                               - create annotated tag
 git tag -a v0.0 9fceb02 -m "init version"                                       - create tag for specifical commit
 git show v0.0                                                                   - show tag v0.0
+git show <SHA-1>                                                                - show commit with SHA-1
+git show <branchName>                                                           - show last commit from branch <branchName>
+git rev-parse <branchName>                                                      - show last commit from branch <branchName>
 git push --tags                                                                 - send tags to remote repository
 ---------------------------------------------------------------------------------------------------------------------------------
 git checkout -b <branch name>                                                   - create new branch
